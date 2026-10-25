@@ -1,0 +1,66 @@
+{
+  "execution_id": "e5a6d3f1-1b9c-4e2d-8f70-3a8c5b9e2e05",
+  "unavailable": {},
+  "execution": {
+    "id": "e5a6d3f1-1b9c-4e2d-8f70-3a8c5b9e2e05",
+    "status": "completed",
+    "conversation_duration": 28,
+    "context_details": {
+      "recipient_data": {
+        "use_case": "policy_renewal"
+      }
+    }
+  },
+  "progression": {
+    "call_start_at": "2026-10-24T10:00:00Z",
+    "turns": [
+      {
+        "sequence_id": 1,
+        "turn_id": 1,
+        "asr_end_to_user_end_ms": 300,
+        "llm_start_to_asr_end_ms": 80,
+        "llm_duration_ms": 400,
+        "tts_start_to_llm_start_ms": 400,
+        "agent_speech_to_tts_start_ms": 200
+      },
+      {
+        "sequence_id": 2,
+        "turn_id": 2,
+        "asr_end_to_user_end_ms": 290,
+        "llm_start_to_asr_end_ms": 70,
+        "llm_duration_ms": 400,
+        "tts_start_to_llm_start_ms": 410,
+        "agent_speech_to_tts_start_ms": 190
+      }
+    ],
+    "transcript": [
+      {
+        "kind": "message",
+        "role": "agent",
+        "text": "Hello Amit, aapki health policy 30 November ko expire ho rahi hai. Renewal ke liye main aapko teen plans bata sakti hoon, pehla plan hai",
+        "interrupted": true
+      },
+      {
+        "kind": "message",
+        "role": "user",
+        "text": "ok ok"
+      },
+      {
+        "kind": "message",
+        "role": "agent",
+        "text": "Main aapko plans ka link WhatsApp pe bhej deti hoon."
+      },
+      {
+        "kind": "message",
+        "role": "user",
+        "text": "Haan bhej do, theek hai bye"
+      },
+      {
+        "kind": "event",
+        "label": "hangup",
+        "ts_ms": 28000
+      }
+    ]
+  },
+  "logs": []
+}

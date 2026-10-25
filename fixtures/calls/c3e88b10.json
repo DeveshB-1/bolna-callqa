@@ -1,0 +1,73 @@
+{
+  "execution_id": "c3e88b10-2a4d-4c7f-b1e9-7d5a3c2f0c03",
+  "unavailable": {},
+  "execution": {
+    "id": "c3e88b10-2a4d-4c7f-b1e9-7d5a3c2f0c03",
+    "status": "completed",
+    "conversation_duration": 34,
+    "context_details": {
+      "recipient_data": {
+        "use_case": "clinic_booking"
+      }
+    }
+  },
+  "progression": {
+    "call_start_at": "2026-10-24T10:00:00Z",
+    "turns": [
+      {
+        "sequence_id": 1,
+        "turn_id": 1,
+        "asr_end_to_user_end_ms": 330,
+        "llm_start_to_asr_end_ms": 70,
+        "llm_duration_ms": 400,
+        "tts_start_to_llm_start_ms": 390,
+        "agent_speech_to_tts_start_ms": 180
+      },
+      {
+        "sequence_id": 2,
+        "turn_id": 2,
+        "asr_end_to_user_end_ms": 340,
+        "llm_start_to_asr_end_ms": 90,
+        "llm_duration_ms": 400,
+        "tts_start_to_llm_start_ms": 2400,
+        "agent_speech_to_tts_start_ms": 260
+      }
+    ],
+    "transcript": [
+      {
+        "kind": "message",
+        "role": "agent",
+        "text": "Namaskar, Sunrise Clinic. Aap kis din appointment lena chahenge?"
+      },
+      {
+        "kind": "message",
+        "role": "user",
+        "text": "Kal subah das baje Dr. Mehta ke saath"
+      },
+      {
+        "kind": "function_call",
+        "tool_name": "book_slot",
+        "status": "error",
+        "response_status_code": 500,
+        "tool_latency_ms": 1800,
+        "ts_ms": 15500
+      },
+      {
+        "kind": "message",
+        "role": "agent",
+        "text": "Ek second, main slot check kar rahi hoon."
+      },
+      {
+        "kind": "message",
+        "role": "user",
+        "text": "Hello? Kya hua, booking hua ki nahi?"
+      },
+      {
+        "kind": "event",
+        "label": "hangup_after_silence",
+        "ts_ms": 34000
+      }
+    ]
+  },
+  "logs": []
+}

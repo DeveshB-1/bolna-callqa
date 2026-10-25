@@ -1,0 +1,85 @@
+{
+  "execution_id": "a1c04e2b-0c55-4f0e-9d0a-6f1b2e7c9a01",
+  "unavailable": {},
+  "execution": {
+    "id": "a1c04e2b-0c55-4f0e-9d0a-6f1b2e7c9a01",
+    "status": "completed",
+    "conversation_duration": 61,
+    "context_details": {
+      "recipient_data": {
+        "use_case": "emi_reminder"
+      }
+    }
+  },
+  "progression": {
+    "call_start_at": "2026-10-24T10:00:00Z",
+    "turns": [
+      {
+        "sequence_id": 1,
+        "turn_id": 1,
+        "asr_end_to_user_end_ms": 320,
+        "llm_start_to_asr_end_ms": 80,
+        "llm_duration_ms": 400,
+        "tts_start_to_llm_start_ms": 410,
+        "agent_speech_to_tts_start_ms": 190
+      },
+      {
+        "sequence_id": 2,
+        "turn_id": 2,
+        "asr_end_to_user_end_ms": 360,
+        "llm_start_to_asr_end_ms": 90,
+        "llm_duration_ms": 400,
+        "tts_start_to_llm_start_ms": 380,
+        "agent_speech_to_tts_start_ms": 210
+      },
+      {
+        "sequence_id": 3,
+        "turn_id": 3,
+        "asr_end_to_user_end_ms": 300,
+        "llm_start_to_asr_end_ms": 70,
+        "llm_duration_ms": 400,
+        "tts_start_to_llm_start_ms": 450,
+        "agent_speech_to_tts_start_ms": 200
+      }
+    ],
+    "transcript": [
+      {
+        "kind": "message",
+        "role": "agent",
+        "text": "Namaste Rahul ji, main Finserv se baat kar rahi hoon. Aapki EMI ki due date 5 November hai, kya aap ise time pe pay kar payenge?",
+        "interrupted": true
+      },
+      {
+        "kind": "message",
+        "role": "user",
+        "text": "Ruko ruko, maine kal hi pay kar diya hai"
+      },
+      {
+        "kind": "message",
+        "role": "agent",
+        "text": "Achha, thank you Rahul ji. Main check karti hoon, kya aap UPI reference number bata sakte hain?"
+      },
+      {
+        "kind": "message",
+        "role": "user",
+        "text": "Haan, 4471 se end hota hai"
+      },
+      {
+        "kind": "message",
+        "role": "agent",
+        "text": "Dhanyavaad, payment mil gaya hai. Aapka din shubh ho."
+      },
+      {
+        "kind": "message",
+        "role": "user",
+        "text": "Theek hai, bye"
+      },
+      {
+        "kind": "event",
+        "label": "hangup",
+        "ts_ms": 61000
+      }
+    ]
+  },
+  "logs": []
+}

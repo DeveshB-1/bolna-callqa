@@ -1,0 +1,91 @@
+{
+  "execution_id": "d4f2c7a9-8e1b-4d3a-9c55-0b6e4a8d1d04",
+  "unavailable": {},
+  "execution": {
+    "id": "d4f2c7a9-8e1b-4d3a-9c55-0b6e4a8d1d04",
+    "status": "completed",
+    "conversation_duration": 52,
+    "context_details": {
+      "recipient_data": {
+        "use_case": "loan_lead"
+      }
+    }
+  },
+  "progression": {
+    "call_start_at": "2026-10-24T10:00:00Z",
+    "turns": [
+      {
+        "sequence_id": 1,
+        "turn_id": 1,
+        "asr_end_to_user_end_ms": 2300,
+        "llm_start_to_asr_end_ms": 80,
+        "llm_duration_ms": 400,
+        "tts_start_to_llm_start_ms": 420,
+        "agent_speech_to_tts_start_ms": 210
+      },
+      {
+        "sequence_id": 2,
+        "turn_id": 2,
+        "asr_end_to_user_end_ms": 340,
+        "llm_start_to_asr_end_ms": 70,
+        "llm_duration_ms": 400,
+        "tts_start_to_llm_start_ms": 400,
+        "agent_speech_to_tts_start_ms": 200
+      },
+      {
+        "sequence_id": 3,
+        "turn_id": 3,
+        "asr_end_to_user_end_ms": 310,
+        "llm_start_to_asr_end_ms": 90,
+        "llm_duration_ms": 400,
+        "tts_start_to_llm_start_ms": 380,
+        "agent_speech_to_tts_start_ms": 190
+      }
+    ],
+    "transcript": [
+      {
+        "kind": "message",
+        "role": "agent",
+        "text": "Namaste, kya aap personal loan ke liye interested hain?"
+      },
+      {
+        "kind": "message",
+        "role": "user",
+        "text": "Haan, mujhe do lakh chahiye"
+      },
+      {
+        "kind": "message",
+        "role": "agent",
+        "text": "Bilkul. Aapki monthly income kitni hai?"
+      },
+      {
+        "kind": "message",
+        "role": "user",
+        "text": "Ek minute, mere paas PAN card bhi hai",
+        "not_sent_to_agent": true,
+        "ts_exact": false
+      },
+      {
+        "kind": "message",
+        "role": "user",
+        "text": "Pachas hazaar mahina"
+      },
+      {
+        "kind": "message",
+        "role": "agent",
+        "text": "Dhanyavaad. Hamari team aapko aaj call karegi."
+      },
+      {
+        "kind": "message",
+        "role": "user",
+        "text": "Ok ji, dhanyavaad"
+      },
+      {
+        "kind": "event",
+        "label": "hangup",
+        "ts_ms": 52000
+      }
+    ]
+  },
+  "logs": []
+}

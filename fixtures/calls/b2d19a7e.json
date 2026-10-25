@@ -1,0 +1,93 @@
+{
+  "execution_id": "b2d19a7e-5f3c-4b8e-8a64-2c0d9e1f7b02",
+  "unavailable": {},
+  "execution": {
+    "id": "b2d19a7e-5f3c-4b8e-8a64-2c0d9e1f7b02",
+    "status": "completed",
+    "conversation_duration": 41,
+    "context_details": {
+      "recipient_data": {
+        "use_case": "order_status"
+      }
+    }
+  },
+  "progression": {
+    "call_start_at": "2026-10-24T10:00:00Z",
+    "turns": [
+      {
+        "sequence_id": 1,
+        "turn_id": 1,
+        "asr_end_to_user_end_ms": 340,
+        "llm_start_to_asr_end_ms": 90,
+        "llm_duration_ms": 400,
+        "tts_start_to_llm_start_ms": 420,
+        "agent_speech_to_tts_start_ms": 200
+      },
+      {
+        "sequence_id": 2,
+        "turn_id": 2,
+        "asr_end_to_user_end_ms": 310,
+        "llm_start_to_asr_end_ms": 100,
+        "llm_duration_ms": 400,
+        "tts_start_to_llm_start_ms": 2950,
+        "agent_speech_to_tts_start_ms": 240
+      },
+      {
+        "sequence_id": 3,
+        "turn_id": 3,
+        "asr_end_to_user_end_ms": 350,
+        "llm_start_to_asr_end_ms": 80,
+        "llm_duration_ms": 400,
+        "tts_start_to_llm_start_ms": 400,
+        "agent_speech_to_tts_start_ms": 190
+      }
+    ],
+    "transcript": [
+      {
+        "kind": "message",
+        "role": "agent",
+        "text": "Hi Priya, this is Kart support. I can see you have an order for running shoes, would you like an update on the delivery?",
+        "interrupted": true
+      },
+      {
+        "kind": "message",
+        "role": "user",
+        "text": "haan"
+      },
+      {
+        "kind": "message",
+        "role": "agent",
+        "text": "Hi Priya, this is Kart support. I can see you have an order for running shoes, would you like an update on the delivery?"
+      },
+      {
+        "kind": "message",
+        "role": "user",
+        "text": "Haan bolo, kab aayega?"
+      },
+      {
+        "kind": "function_call",
+        "tool_name": "get_order_status",
+        "status": "success",
+        "response_status_code": 200,
+        "tool_latency_ms": 3400,
+        "ts_ms": 24000
+      },
+      {
+        "kind": "message",
+        "role": "agent",
+        "text": "Aapka order kal shaam 6 baje tak deliver ho jayega."
+      },
+      {
+        "kind": "message",
+        "role": "user",
+        "text": "Ok thank you"
+      },
+      {
+        "kind": "event",
+        "label": "hangup",
+        "ts_ms": 41000
+      }
+    ]
+  },
+  "logs": []
+}

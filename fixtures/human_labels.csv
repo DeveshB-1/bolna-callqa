@@ -1,0 +1,14 @@
+execution_id,kind,index,label,note
+a1c04e2b-0c55-4f0e-9d0a-6f1b2e7c9a01,barge_in,0,true,caller cut in to say already paid
+b2d19a7e-5f3c-4b8e-8a64-2c0d9e1f7b02,backchannel_cutoff,0,true,"agent dropped its sentence on a ""haan"""
+b2d19a7e-5f3c-4b8e-8a64-2c0d9e1f7b02,agent_repeat,2,true,restarted the same opener word for word
+b2d19a7e-5f3c-4b8e-8a64-2c0d9e1f7b02,slow_tool,4,true,dead air while order lookup ran
+b2d19a7e-5f3c-4b8e-8a64-2c0d9e1f7b02,slow_turn,2,true,
+c3e88b10-2a4d-4c7f-b1e9-7d5a3c2f0c03,tool_failure,2,true,booking API 500
+c3e88b10-2a4d-4c7f-b1e9-7d5a3c2f0c03,unanswered_hangup,4,true,caller asked if booking went through; silence hangup
+d4f2c7a9-8e1b-4d3a-9c55-0b6e4a8d1d04,slow_turn,1,true,long endpointing on first answer
+d4f2c7a9-8e1b-4d3a-9c55-0b6e4a8d1d04,dropped_user_speech,3,true,
+d4f2c7a9-8e1b-4d3a-9c55-0b6e4a8d1d04,unanswered_hangup,6,false,polite goodbye
+e5a6d3f1-1b9c-4e2d-8f70-3a8c5b9e2e05,backchannel_cutoff,0,false,"""ok ok"" meant skip the plan list; stopping was right"
+f6b3e9c2-7d4a-4f1b-a2c8-5e9d0f3a6f06,barge_in,0,true,caller talked over the opener; transcript has no interrupted flag
+f6b3e9c2-7d4a-4f1b-a2c8-5e9d0f3a6f06,unanswered_hangup,3,false,polite goodbye
